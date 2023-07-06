@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
 header, main{
     background-color: #010001;
     
@@ -20,14 +24,14 @@ header{
 .site_header{
     justify-content: flex-end;
 }
-.icon_header{
+.h_icon{
     justify-content: flex-end;
     
     width: 12%;
     color: white;
     gap: 5px;
 }
-.icon_header>div{
+.h_icon>div{
     padding: 5px;
     background-color: #4b4b4a;
     border-radius: 5px;
@@ -42,6 +46,7 @@ header{
     width: 80%;
     margin: auto;
     padding: 2rem 0.5rem;
+    
 }
 
 .row{
@@ -49,6 +54,9 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.5rem;
+    overflow: hidden;
+    height: 85vh;
+    overflow: auto;
 }
 
 .user{
@@ -70,7 +78,32 @@ img+div{
 
 /* #region footer */
 
+footer{
+    background-color: #222222;
+    color: white;
+    padding: 1.25rem 1rem;
+}
+.footer_container{
+    justify-content: space-between;
+    align-content: center;
+}
 
+.f_section{
+    align-items: center;
+}
+
+.f_icon>i{
+    padding-bottom: 1.3rem;
+    padding-left: 3px;
+}
+.f_icon>div{
+    font-size: small;
+}
+
+.fa-angle-up{
+    padding-left: 15px;
+    padding-right: 1.5rem;
+}
 /* #endregion footer */
 
 /* #region debug */
