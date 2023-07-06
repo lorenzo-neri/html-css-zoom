@@ -43,6 +43,17 @@ header{
     max-width: 1170px;
 }
 
+.row{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+img{
+    padding: 0.5rem 0;
+}
+
 /* #endregion main */
 
 /* #region footer */
