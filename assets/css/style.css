@@ -81,7 +81,8 @@ img+div{
 footer{
     background-color: #222222;
     color: white;
-    padding: 1.25rem 1rem;
+    padding: 1rem 1rem;
+    padding-top: 1.2rem;
 }
 .footer_container{
     justify-content: space-between;
@@ -92,12 +93,15 @@ footer{
     align-items: center;
 }
 
+.f_icon{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+
 .f_icon>i{
     padding-bottom: 1.3rem;
-    padding-left: 3px;
-}
-.f_icon>div{
-    font-size: small;
 }
 
 .fa-angle-up{
