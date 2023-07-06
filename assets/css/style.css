@@ -3,3 +3,62 @@
     margin: 0;
     padding: 0;
 }
+
+header, main{
+    background-color: #010001;
+    
+}
+
+.d-flex{
+    display: flex;
+}
+
+/* #region header */
+header{
+    padding: 0.6rem 0.3rem;
+}
+.site_header{
+    justify-content: flex-end;
+}
+.icon_header{
+    justify-content: flex-end;
+    justify-content: space-between;
+    width: 12%;
+    color: white;
+}
+.icon_header>div{
+    padding: 5px;
+    background-color: #4b4b4a;
+    border-radius: 5px;
+    
+}
+
+/* #endregion header */
+
+/* #region main */
+
+.container{
+    width: 90%;
+    margin: auto;
+    max-width: 1170px;
+}
+
+/* #endregion main */
+
+/* #region footer */
+
+
+/* #endregion footer */
+
+/* #region debug */
+
+.debug main{
+    height: 100vh;
+    background-color: red;
+}
+
+.debug .container{
+    background-color: gray;
+    height: 100vh;
+}
+/* #endregion debug */
